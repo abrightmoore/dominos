@@ -1,0 +1,20 @@
+pack.name=Domino
+pack.description=Resource Pack for Domino
+
+item.spawn_egg.entity.twf:domino.name=Spawn Domino
+item.spawn_egg.entity.twf:domino_player.name=Spawn Player Domino
+item.spawn_egg.entity.twf:domino_white.name=Spawn White Domino
+item.spawn_egg.entity.twf:domino_white_16.name=Spawn White 1 6 Domino
+item.spawn_egg.entity.twf:domino_white_24.name=Spawn White 2 4 Domino
+item.spawn_egg.entity.twf:domino_white_35.name=Spawn White 3 5 Domino
+item.spawn_egg.entity.twf:domino_yellow.name=Spawn Yellow Domino
+item.spawn_egg.entity.twf:domino_red.name=Spawn Red Domino
+item.spawn_egg.entity.twf:domino_purple.name=Spawn Purple Domino
+item.spawn_egg.entity.twf:domino_orange.name=Spawn Orange Domino
+item.spawn_egg.entity.twf:domino_pink.name=Spawn Pink Domino
+item.spawn_egg.entity.twf:domino_blue.name=Spawn Blue Domino
+item.spawn_egg.entity.twf:domino_green.name=Spawn Green Domino
+item.spawn_egg.entity.twf:domino_rbow.name=Spawn Rainbow Domino
+item.spawn_egg.entity.twf:domino_tnt.name=Spawn TNT Domino
+item.spawn_egg.entity.twf:flag.name=Spawn Flag
+

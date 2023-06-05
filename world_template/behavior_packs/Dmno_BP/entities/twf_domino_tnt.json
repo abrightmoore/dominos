@@ -1,0 +1,72 @@
+{
+    "format_version": "1.17.0", 
+    "minecraft:entity": {
+        "component_groups": {
+            "twf:fallen": {
+                "minecraft:variant": { "value": 1 }
+            },
+            "twf:upright": {
+                "minecraft:variant": {
+                    "value": 0
+                }
+            }            
+        }, 
+        "components": {
+            "minecraft:damage_sensor": {
+                    "triggers": {
+                      "on_damage": {
+                        "filters": {
+                          "test": "is_family",
+                          "subject": "other",
+                          "value": "player"
+                        }
+                      },
+                      "deals_damage": false
+                    }
+                }, 
+            "minecraft:experience_reward": {
+                "on_death": "(0.0)"
+            }, 
+            "minecraft:knockback_resistance": {
+                "value": 1.0
+            }, 
+            "minecraft:loot": {
+                "table": "loot_tables/twf_domino.json"
+            }, 
+            "minecraft:nameable": {}, 
+            "minecraft:physics": {}
+        }, 
+        "description": {
+            "identifier": "twf:domino_tnt", 
+            "is_spawnable": true, 
+            "is_summonable": true,
+            "animations": {
+                "lifecycle": "controller.animation.twf_domino_tnt.life",
+                "base_pose": "animation.twf_domino.base_pose",
+                "fall": "animation.twf_domino.fall"                
+            },
+            "scripts": {
+                    "animate": [
+                        "lifecycle"
+                    ]
+            }
+        }, 
+        "events": {
+            "twf:hit_event": {
+                "add": {
+                  "component_groups": [
+                    "twf:fallen"
+                  ]
+                }
+            },
+            "twf:upright_event": {
+                "add": {
+                  "component_groups": [
+                    "twf:upright"
+                  ]
+                }
+            }
+            
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "format_version": "1.10.0", 
+    "minecraft:client_entity": {
+        "description": {
+            "animations": {
+                "lifecycle": "controller.animation.twf_domino.life",
+                "base_pose": "animation.twf_domino.base_pose",
+                "fall": "animation.twf_domino.fall"
+            }, 
+            "geometry": {
+                "default": "geometry.twf_domino"
+            }, 
+            "identifier": "twf:domino_player", 
+            "materials": {
+                "default": "entity"
+            }, 
+            "render_controllers": [
+                "controller.render.single_texture"
+            ], 
+            "scripts": {
+                "animate": [
+                    "lifecycle"
+                ]
+            },
+            "spawn_egg": {
+                "base_color": "#fff5f7", 
+                "overlay_color": "#000707"
+            },
+            "textures": {
+                "default": "textures/entities/twf_domino_white",
+                "variant_1": "textures/entities/twf_domino_white_16",
+                "variant_2": "textures/entities/twf_domino_white_24",
+                "variant_3": "textures/entities/twf_domino_white_35"
+            }
+        }
+    }
+}

@@ -1,0 +1,138 @@
+{
+    "format_version": "1.17.0", 
+    "minecraft:entity": {
+        "component_groups": {
+            "twf:fallen": {
+                "minecraft:variant": { "value": 1 },
+                "minecraft:damage_sensor": {
+                    "triggers": {
+                      "on_damage": {
+                        "filters": {
+                          "test": "is_family",
+                          "subject": "other",
+                          "value": "player"
+                        },
+                        "event": "twf:hit_event"
+                      },
+                      "deals_damage": false
+                    }
+                },
+                "minecraft:custom_hit_test": {
+                    "hitboxes": [
+                        {
+                            "height": 0, 
+                            "pivot": [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            "width": 0
+                        }
+                    ]
+                }
+            },
+            "twf:upright": {
+                "minecraft:variant": {
+                    "value": 0
+                },
+                "minecraft:custom_hit_test": {
+                    "hitboxes": [
+                        {
+                            "height": 2.0, 
+                            "pivot": [
+                                0.5, 
+                                1.0, 
+                                0
+                            ], 
+                            "width": 1.0
+                        }
+                    ]
+                },
+                "minecraft:damage_sensor": {
+                    "triggers": {
+                      "on_damage": {
+                        "filters": {
+                          "test": "is_family",
+                          "subject": "other",
+                          "value": "player"
+                        },
+                        "event": "twf:hit_event"
+                      },
+                      "deals_damage": true
+                    }
+                }
+            }            
+        }, 
+        "components": {
+            "minecraft:damage_sensor": {
+                "triggers": {
+                  "on_damage": {
+                    "filters": {
+                      "test": "is_family",
+                      "subject": "other",
+                      "value": "player"
+                    },
+                    "event": "twf:hit_event"
+                  },
+                  "deals_damage": true
+                }
+            },            
+            "minecraft:custom_hit_test": {
+                "hitboxes": [
+                    {
+                        "height": 2.0, 
+                        "pivot": [
+                            0.5, 
+                            1.0, 
+                            0
+                        ], 
+                        "width": 1.0
+                    }
+                ]
+            }, 
+            "minecraft:experience_reward": {
+                "on_death": "(0.0)"
+            }, 
+            "minecraft:knockback_resistance": {
+                "value": 1.0
+            }, 
+            "minecraft:loot": {
+                "table": "loot_tables/twf_domino.json"
+            }, 
+            "minecraft:nameable": {}, 
+            "minecraft:physics": {}
+        }, 
+        "description": {
+            "identifier": "twf:domino", 
+            "is_spawnable": true, 
+            "is_summonable": true,
+            "animations": {
+                "lifecycle": "controller.animation.twf_domino.life",
+                "base_pose": "animation.twf_domino.base_pose",
+                "fall": "animation.twf_domino.fall"                
+            },
+            "scripts": {
+                    "animate": [
+                        "lifecycle"
+                    ]
+            }
+        }, 
+        "events": {
+            "twf:hit_event": {
+                "add": {
+                  "component_groups": [
+                    "twf:fallen"
+                  ]
+                }
+            },
+            "twf:upright_event": {
+                "add": {
+                  "component_groups": [
+                    "twf:upright"
+                  ]
+                }
+            }
+            
+        }
+    }
+}

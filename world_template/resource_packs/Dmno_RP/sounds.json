@@ -1,0 +1,21 @@
+{
+  "individual_event_sounds" : {
+     "events" :{
+	    "sounds.domino.five": {"sound": "sounds.domino.five", "volume": 1.0, "pitch": 1.0, "stream": "false"},
+	    "sounds.domino.million": {"sound": "sounds.domino.million", "volume": 1.0, "pitch": 1.0, "stream": "false"},
+	    "sounds.domino.one": {"sound": "sounds.domino.one", "volume": 1.0, "pitch": 1.0, "stream": "false"},
+	    "sounds.domino.onehundred": {"sound": "sounds.domino.onehundred", "volume": 1.0, "pitch": 1.0, "stream": "false"},
+	    "sounds.domino.ten": {"sound": "sounds.flyspy.ten", "volume": 1.0, "pitch": 1.0, "stream": "false"},
+        "sounds.domino.ambient.domino": {"sound": "sounds.domino.ambient.domino", "volume": 1.0, "pitch": 1.0, "stream": "false"},
+        "sounds.domino.ambient.domino1": {"sound": "sounds.domino.ambient.domino1", "volume": 1.0, "pitch": 1.0, "stream": "false"},
+        "sounds.domino.ambient.dominodominodomino": {"sound": "sounds.domino.ambient.dominodominodomino", "volume": 1.0, "pitch": 1.0, "stream": "false"},
+        "sounds.domino.start.go1": {"sound": "sounds.domino.start.go1", "volume": 1.0, "pitch": 1.0, "stream": "false"},
+        "sounds.domino.start.go2": {"sound": "sounds.domino.start.go2", "volume": 1.0, "pitch": 1.0, "stream": "false"},
+        "sounds.domino.start.go3": {"sound": "sounds.domino.start.go3", "volume": 1.0, "pitch": 1.0, "stream": "false"},
+        "sounds.domino.start.go4": {"sound": "sounds.domino.start.go4", "volume": 1.0, "pitch": 1.0, "stream": "false"},
+        "sounds.domino.win.jackpot": {"sound": "sounds.domino.win.jackpot", "volume": 1.0, "pitch": 1.0, "stream": "false"},
+        "sounds.domino.win.winwinwin": {"sound": "sounds.domino.win.winwinwin", "volume": 1.0, "pitch": 1.0, "stream": "false"},
+        "sounds.domino.win.winwinwin1": {"sound": "sounds.domino.win.winwinwin1", "volume": 1.0, "pitch": 1.0, "stream": "false"}        
+     }
+  }
+}

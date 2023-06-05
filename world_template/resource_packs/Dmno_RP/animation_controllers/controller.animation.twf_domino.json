@@ -1,0 +1,33 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.twf_domino.life": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+                    "blend_transition": 0.1,
+                    "blend_via_shortest_path": true,                    
+                    "animations": [ "base_pose" ],
+                    "transitions": [
+                        {
+                            "fallen": "query.variant == 1"
+                        }
+                    ]
+
+				},
+				"fallen": {
+                    "blend_transition": 0.1,
+                    "blend_via_shortest_path": true,
+					"animations": [ "fall" ],
+                    "transitions": [
+                        {
+                            "default": "query.variant == 0"
+                        }
+                    ]
+
+				}
+                
+			}
+		}
+	}
+}

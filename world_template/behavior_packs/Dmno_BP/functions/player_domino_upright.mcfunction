@@ -1,0 +1,1 @@
+execute @p ~ ~ ~ event entity @e[type=twf:domino_player,r=0.5] twf:upright_event

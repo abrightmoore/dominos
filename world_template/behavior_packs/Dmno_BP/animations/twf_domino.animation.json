@@ -1,0 +1,55 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.twf_domino.fall": {
+			"animation_length": 1.56,
+			"override_previous_animation": true,
+            "loop": "hold_on_last_frame",
+			"bones": {
+				"bone": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.52": {
+							"post": [17.5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.72": {
+							"post": [90, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.88": {
+							"post": [82.5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.96": {
+							"post": [90, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.04": {
+							"post": [85, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.12": {
+							"post": [90, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+                        "1.56": [89.99, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.twf_domino.base_pose": {
+			"loop": true,
+			"animation_length": 1.04,
+			"bones": {
+				"bone": {
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.52": [1, 0.99, 1],
+						"1.04": [1, 1, 1]
+					}
+				}
+			}
+		}
+	}
+}

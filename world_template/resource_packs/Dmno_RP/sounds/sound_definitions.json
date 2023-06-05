@@ -1,0 +1,117 @@
+{
+  "sounds.domino.five": {
+    "category": "ui",
+    "sounds": [
+      "sounds/domino/five"
+    ]
+  },
+  "sounds.domino.million": {
+    "category": "ui",
+    "sounds": [
+      "sounds/domino/million"
+    ]
+  },
+  "sounds.domino.one": {
+    "category": "ui",
+    "sounds": [
+      "sounds/domino/one"
+    ]
+  },
+  "sounds.domino.onehundred": {
+    "category": "ui",
+    "sounds": [
+      "sounds/domino/onehundred"
+    ]
+  },
+  "sounds.domino.ten": {
+    "category": "ui",
+    "sounds": [
+      "sounds/domino/ten"
+    ]
+  },
+  "sounds.domino.ambient.domino": {
+    "category": "ui",
+    "sounds": [
+      "sounds/domino/ambient/domino"
+    ]
+  },
+  "sounds.domino.ambient.domino1": {
+    "category": "ui",
+    "sounds": [
+      "sounds/domino/ambient/domino1"
+    ]
+  },
+  "sounds.domino.ambient.dominodominodomino": {
+    "category": "ui",
+    "sounds": [
+      "sounds/domino/ambient/dominodominodomino"
+    ]
+  },
+  "sounds.domino.start.go1": {
+    "category": "ui",
+    "sounds": [
+      "sounds/domino/start/go1"
+    ]
+  },
+  "sounds.domino.start.go2": {
+    "category": "ui",
+    "sounds": [
+      "sounds/domino/start/go2"
+    ]
+  },
+  "sounds.domino.start.go3": {
+    "category": "ui",
+    "sounds": [
+      "sounds/domino/start.go3"
+    ]
+  },
+  "sounds.domino.start.go4": {
+    "category": "ui",
+    "sounds": [
+      "sounds/domino/start/go4"
+    ]
+  },
+  "sounds.domino.win.jackpot": {
+    "category": "ui",
+    "sounds": [
+      "sounds/domino/win/jackpot"
+    ]
+  },
+  "sounds.domino.win.winwinwin": {
+    "category": "ui",
+    "sounds": [
+      "sounds/domino/win/winwinwin"
+    ]
+  },
+  "sounds.domino.win.winwinwin1": {
+    "category": "ui",
+    "sounds": [
+      "sounds/domino/win/winwinwin1"
+    ]
+  },  
+  "sounds.domino.win": {
+    "category": "ui",
+    "sounds": [
+      "sounds/domino/win/winwinwin1",
+      "sounds/domino/win/winwinwin",
+      "sounds/domino/win/jackpot"
+    ]
+  },
+  "sounds.domino.start": {
+    "category": "ui",
+    "sounds": [
+      "sounds/domino/start/go4",
+      "sounds/domino/start/go3",
+      "sounds/domino/start/go2",
+      "sounds/domino/start/go1"
+    ]
+  },
+  "sounds.domino.ambient": {
+    "category": "ui",
+    "sounds": [
+      "sounds/domino/ambient/domino",
+      "sounds/domino/ambient/domino1",
+      "sounds/domino/ambient/dominodominodomino"
+    ]
+  }
+}
